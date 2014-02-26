@@ -80,5 +80,5 @@ Thenewapp::Application.configure do
 
    #required for heroku
    #Note to set this to your accutal host
-  config.action_mailer.default_url_options = { :host => 'thenewapp111.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'http://thenewapp111.herokuapp.com' }
 end
